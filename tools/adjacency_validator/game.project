@@ -1,0 +1,16 @@
+[project]
+title = Cold Path Adjacency Validator
+
+[bootstrap]
+main_collection = /main/main.collectionc
+
+[script]
+shared_state = 1
+
+[display]
+width = 640
+height = 480
+
+[android]
+package = com.DenisMakhortov.ColdPathAdjacencyValidator
+input_method = HiddenInputField

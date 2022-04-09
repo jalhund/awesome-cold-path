@@ -1,0 +1,91 @@
+local IMAGE_DATA_PATH = "/mnt/sdcard/Android/data/com.DenisMakhortov.ColdPathAdjacencyValidator/files/"
+local lume = require "lume"
+
+local fl
+local last_ten = {}
+
+local function log(text)
+    table.insert(last_ten, text)
+    if #last_ten > 10 then
+        table.remove(last_ten, 1)
+    end
+    fl:write(text.."\n")
+end
+
+local function validate()
+    -- Validate adjacency list
+	local file = io.open(IMAGE_DATA_PATH.."adjacency.dat", "r")
+	if file then
+		local adjacency_list = {}
+
+		local data = file:read("*a")
+		file:close()
+
+		local first = true
+		for line in string.gmatch(data, "[^\n]+") do
+			local prov = nil
+			for i in string.gmatch(line, "%S+") do
+				i = tonumber(i)
+				if first then
+					first = false
+					prov = i
+					adjacency_list[i] = {}
+				else
+					table.insert(adjacency_list[prov], i)
+				end
+			end
+			first = true
+		end
+		for k, v in pairs(adjacency_list) do
+			for key, val in pairs(v) do
+				if not lume.match(adjacency_list[val], function(x)
+					return x == k
+				end) then
+					log("ERROR ON PROVINCES: "..k.." "..val)
+					table.insert(adjacency_list[val], k)
+					log("Fixed!")
+				end
+			end
+		end
+
+		file = io.open(IMAGE_DATA_PATH.."adjacency.dat", "w")
+		for k, v in pairs(adjacency_list) do
+			file:write(k.." ")
+			for key, val in pairs(v) do
+				file:write(val.." ")
+			end
+			file:write("\n")
+		end
+		file:close()
+	else
+		log("error validating file: adjacency.dat")
+	end
+end
+
+local function my_error_handler(source, message, traceback)
+	log(source)    --> lua
+	log(message)   --> main/my.script:10: attempt to perform arithmetic on a string value
+	log(traceback) --> stack traceback:
+	-->         main/test.script:10: in function 'boom'
+	-->         main/test.script:15: in function <main/my.script:13>
+end
+
+function init(self)
+    local sysinfo = sys.get_sys_info()
+    if sysinfo.system_name == "Android" then
+		if external_directory then
+			local s = external_directory.get()
+			IMAGE_DATA_PATH = s.."/"
+		end
+    end
+
+    fl = io.open(IMAGE_DATA_PATH.."log.txt", "a")
+    log("start: "..(fl and "success" or "error"))
+    sys.set_error_handler(my_error_handler)
+    validate()
+    fl:close()
+end
+
+function update(self)
+    msg.post("@render:", "draw_debug_text", { text = table.concat(last_ten,"\n"), position = vmath.vector3(640, 360, 0), color = vmath.vector4(1, 1, 1, 1) } )
+end
