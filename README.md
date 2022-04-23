@@ -10,6 +10,7 @@
  * [Tools](#Tools)
  * [Maps](#Maps)
  * [Plugins](#Plugins) 
+ * [Servers](#Servers)
  * [Links](#Links)
  
 ## Guides
@@ -24,13 +25,17 @@
 * [Cold Path Server Sources](https://github.com/jalhund/cold-path-server) - sources of global server
 * [Cold Path Map Editor](https://github.com/jalhund/cold-path-map-editor) - sources of Map Editor. You can download ready to use apk files in Releases section
 * [Cold Path Map Updater](https://github.com/jalhund/ColdPathMapUpdater) - simple tool for updating game map from <15 game version to >=15 
-* Cold Path Adjacency Validator (*tools* folder) - simple tool for updating game map from <15 game version to >=15
+* Cold Path Adjacency Validator (*tools* folder) - repair broken adjacency.dat after edit in text editor
 
 ## Maps
 
 ## Plugins
 
 * [Operator](./plugins/operator.lua) - type '/op <nickname or part of nickname>' to add player to list of admins. Author: *Eternal Lumiere#6960*
+
+## Servers
+
+* [Improved Cold Path Server by Eternal Lumiere](https://github.com/lumi3re/improvedcoldpathserver) 
 
 ## Links
 
