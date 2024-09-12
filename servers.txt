@@ -1,4 +1,6 @@
 192.168.43.1:5555 Wi-Fi Local server
+5.63.159.30:5555 [EN] Official Server #1
+5.63.159.30:5556 [RU] Official Server #2
 92.63.107.40:5555 [RU] 2x2x
 93.183.92.54:5555 [RU] Springfield
 93.183.92.54:5556 [RU] Springfield
