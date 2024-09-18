@@ -1,5 +1,7 @@
 192.168.43.1:5555 Wi-Fi Local server
 92.63.107.40:5555 [RU] 2x2x
+93.183.92.54:5555 [RU] Springfield
+93.183.92.54:5556 [RU] Springfield
 93.183.92.54:5557 [RU] Timing
 176.53.163.79:5555 [RU] Difolds
 176.53.163.79:2009 [RU] Difolds
