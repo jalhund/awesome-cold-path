@@ -1,7 +1,7 @@
 192.168.43.1:5555 Wi-Fi Local server
 92.63.107.40:5555 [RU] 2x2x
-93.183.92.54:5555 [RU] Springfield
-93.183.92.54:5556 [RU] Springfield
+93.183.92.54:5555 [RU] WG 12 Paths
+93.183.92.54:5556 [RU] RP 12 Paths
 176.53.163.79:5555 [RU] Difolds
 176.53.163.79:2009 [RU] Difolds
 149.154.66.231:5555 [RU] Henrih
