@@ -1,5 +1,6 @@
 192.168.43.1:5555 Wi-Fi Local server
-95.163.229.240:5555 [RU] 12 Paths 
+12paths.ru:5555 [RU] WG 12 Paths  
+12paths.ru:5550 [RU] RP 12 Paths
 92.63.107.40:5555 [RU] WG 2x2x
 109.172.84.106:5550 [RU] WG California  
 85.198.108.36:5550 [RU] RP California
