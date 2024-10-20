@@ -6,3 +6,5 @@
 85.198.108.36:5550 [RU] RP California
 149.154.66.231:5555 [RU] WG Cocoslandia 
 149.154.66.231:5557 [RU] RP Cocoslandia
+176.53.163.79:5555 [RU] WG Milky Way
+176.53.163.79:5557 [RU] RP Milky Way
