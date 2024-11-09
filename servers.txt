@@ -2,8 +2,6 @@
 12paths.ru:5555 [RU] WG 12 Paths  
 12paths.ru:5550 [RU] RP 12 Paths
 92.63.107.40:5555 [RU] WG 2x2x
-109.172.84.106:5550 [RU] WG California  
-85.198.108.36:5550 [RU] RP California
 149.154.66.231:5555 [RU] WG Cocoslandia 
 149.154.66.231:5557 [RU] RP Cocoslandia
 176.53.163.79:5555 [RU] WG Milky Way
