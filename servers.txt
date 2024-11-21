@@ -2,4 +2,4 @@
 12paths.ru:5555 [RU] WG 12 Paths  
 12paths.ru:5550 [RU] RP 12 Paths
 92.63.107.40:5555 [RU] WG 2x2x
-91.232.103.156:5555 [EN] WG
+91.232.103.156:5555 [TR] [EN] WG Global path
