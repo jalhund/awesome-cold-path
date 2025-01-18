@@ -3,6 +3,5 @@
 12paths.ru:5550 [RU] RP 12 Paths
 12paths.ru:7777 [RU] RP2 12 Paths
 92.63.107.40:5555 [RU] WG 2x2x
-185.146.156.137:5555 [RU] WG Cocoslandia
 195.210.47.226:5555 [RU] RP Relight
 195.210.47.226:1448 [RU] WG Relight
