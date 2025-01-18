@@ -4,4 +4,6 @@
 12paths.ru:7777 [RU] RP2 12 Paths
 92.63.107.40:5555 [RU] WG 2x2x
 91.232.103.156:5555 [TR] [EN] WG Global Path
-185.146.156.137:5555 [RU] [RU] Cocoslandia
+185.146.156.137:5555 [RU] WG Cocoslandia
+195.210.47.226:5555 [RU] RP Relight
+195.210.47.226:1448 [RU] WG Relight
