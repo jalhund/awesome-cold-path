@@ -5,3 +5,8 @@ californiaserver.ru:5555 [RU] California RP
 195.210.47.226:5555 [RU] RP Relight
 195.210.47.226:1448 [RU] WG Relight
 185.146.156.137:5555 [RU] WG Galactic
+technodes.pro:2085 [RU] MrViskus
+technodes.pro:2086 [RU] MrViskus
+technodes.pro:2087 [RU] MrViskus
+technodes.pro:2089 [RU] MrViskus
+technodes.pro:2030 [RU] MrViskus
