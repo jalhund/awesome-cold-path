@@ -1,6 +1,6 @@
 192.168.43.1:5555 Wi-Fi Local server
 californiaserver.ru:5555 [RU] California RP
-79.174.94.230:5555 [RU] RP 12 Paths
+31.31.207.33:5555 [RU] RP 12 Paths
 92.63.107.40:5555 [RU] WG 2x2x
 195.210.47.226:5555 [RU] RP Relight
 195.210.47.226:1448 [RU] WG Relight
