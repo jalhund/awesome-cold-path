@@ -2,3 +2,4 @@
 92.63.107.40:5555 [RU] WG 2x2x
 195.210.47.226:5555 [RU] RP California
 195.210.47.226:1488 [RU] WG California
+161.35.216.205:5555 [RU] WG Fastera Community
