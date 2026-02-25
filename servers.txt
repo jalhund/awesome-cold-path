@@ -1,3 +1,4 @@
 192.168.43.1:5555 Wi-Fi Local server
 92.63.107.40:5555 [RU] WG 2x2x
 37.46.128.67:5555 [RU] RP California
+37.46.128.67:7777 [RU] WG California
