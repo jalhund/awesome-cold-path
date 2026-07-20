@@ -1,7 +1,3 @@
 192.168.43.1:5555 Wi-Fi Local server
 92.63.107.40:5555 [RU] WG 2x2x
-132.243.113.200:5555 [RU] RP California
-132.243.113.200:7777 [RU] WG California
-217.28.220.222:5555 [RU] WG 12 PATH
-217.28.220.222:5556 [RU] RP 12 PATH
 157.22.205.215:5555 Asterix ( [AH] Asterix - Открытие ) 
